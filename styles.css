@@ -1,0 +1,21 @@
+header {
+	background:transparent url("images/logo.png") no-repeat;
+	margin-top:40px;
+	margin-left:20px;
+}
+header a {
+	display:inline-block;
+	color:#8f0000;
+	-webkit-transition:-webkit-transform 0.25s, color 0.25s
+}
+
+header a:hover {
+	color:#f50000;
+	-webkit-transform:rotate(10deg);
+	text-decoration:none;
+}
+
+h2 {
+	font-size:22px;
+	color:#df7777;
+}
